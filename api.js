@@ -18,7 +18,7 @@ client.connect(err =>{
 })
 
 app.get('/daftar_komponen', (req,res) => {
-    client.query(`Select * from daftar_komponen`, (err,result) =>{
+    client.query(`Select * from sensor`, (err,result) =>{
         if(!err){
             res.send(result)
         }
