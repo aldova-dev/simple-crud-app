@@ -3,7 +3,7 @@ const express = require('express')
 const bodyParser = require('body-parser')
 
 //Inisialisasi client dan app
-const client = require('./connection')
+const client = require('./db')
 const app = express()
 
 //menerapkan body parser pada app
